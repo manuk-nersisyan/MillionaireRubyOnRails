@@ -1,0 +1,22 @@
+<div>
+  <% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, class: 'alert alert-info' %>
+  <% end %>
+</div>
+
+<%= link_to "Top points ", top_points_url, :class => "btn btn-warning" %>
+<% if @question and @question.answers%>
+  <%= form_for :game, url: games_path do |f| %>
+       <div class="alert alert-light">
+          <h1><%=@question.text %></h1>
+         <%= f.select :answer_id, options_for_select((@question.answers).map { |i| ["#{i.text} ", i.id] }, {:class => 'form-control'}) %>
+        </div>
+    <%= f.submit("Continue", :class => "btn btn-success")  %>
+  <% end %>
+<%end%>
+
+
+
+
+
+

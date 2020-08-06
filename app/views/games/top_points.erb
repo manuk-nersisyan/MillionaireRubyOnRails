@@ -1,0 +1,9 @@
+<h1>
+  <%if @top_point %>
+    My Points: <%= @top_point.point %>
+  <%end %>
+</h1>
+
+<% @top_users_points.each do |top_user_point| %>
+  <p>user id: <%= top_user_point.user_id %> user point: <%= top_user_point.point %> </p>
+<% end %>
