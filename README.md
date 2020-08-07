@@ -27,7 +27,7 @@ Things you may want to cover:
 
 * Բարդության աստիճանը և միավորը պահել առանձին table -ում և կապել Qeuestions և Games table -ների հետ։
 * Answers -ը create անել լիստով, ստուգել որ գոնե մեկ պատասխան ճիշտ լինի։  
-* Օգտագործել MySQL SQLite -ի փոխարեն, ստեղծել .env.example credentials պահելու համար։ 
+* Օգտագործել MySQL SQLite -ի փոխարեն, ստեղծել .env և env.example credentials պահելու համար։ 
 
 ## Description
 
