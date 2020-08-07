@@ -14,14 +14,14 @@ Things you may want to cover:
 * How to run the test suite
 
     `git clone https://github.com/manuk-nersisyan/MillionaireRubyOnRails.git` <br /> 
-    `yarn install --check-file`
-    `bundle install`
-    `rails g devise:install`
-    `rails g devise user`
-    `rails generate active_admin:install`
-    `rails db:migrate`
-    `rails db:seed`
-    `rails s`
+    `yarn install --check-file` <br /> 
+    `bundle install` <br /> 
+    `rails g devise:install` <br /> 
+    `rails g devise user` <br /> 
+    `rails generate active_admin:install` <br /> 
+    `rails db:migrate` <br /> 
+    `rails db:seed` <br /> 
+    `rails s` <br /> 
     
 ## ToDo
 
