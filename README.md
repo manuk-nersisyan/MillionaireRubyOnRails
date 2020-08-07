@@ -13,7 +13,7 @@ Things you may want to cover:
 
 * How to run the test suite
 
-    `git clone https://github.com/manuk-nersisyan/MillionaireRubyOnRails.git`
+    `git clone https://github.com/manuk-nersisyan/MillionaireRubyOnRails.git`/n
     `yarn install --check-file`
     `bundle install`
     `rails g devise:install`
